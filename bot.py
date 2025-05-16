@@ -101,7 +101,7 @@ print(users)
 '''
 
 # Token del bot (reemplaza 'YOUR_TOKEN' con el token de tu bot de Telegram)
-TOKEN = "7519577363:AAFuRO9-2SHBEDL9LED6R3dyqxmWyjWi6Is" # "7519577363:AAFuRO9-2SHBEDL9LED6R3dyqxmWyjWi6Is" # 
+TOKEN = "7519577363:AAF8Wt4LzTXzkrRM9e6lBe5-YeysFZ8-LHM" # "7519577363:AAF8Wt4LzTXzkrRM9e6lBe5-YeysFZ8-LHM" # 
 bot = Bot(TOKEN)
 owner_id = [6216175814,5006318648]
 # owner_channel = -1002358026086
